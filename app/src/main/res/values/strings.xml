@@ -76,8 +76,6 @@
     <string name="mppt">MPPT</string>
     <string name="nappali_órák_manuális">Nappali órák (manuális):</string>
     <string name="_12_5">12.5</string>
-<<<<<<< HEAD
-    <string name"asd">asd</string>
-=======
->>>>>>> branch 'main' of https://github.com/AIDStudio/Solar-Kalkul-tor-Pro.git
+
+    <string name="asd">asd</string>
 </resources>
