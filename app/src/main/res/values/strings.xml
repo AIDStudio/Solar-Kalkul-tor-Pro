@@ -40,35 +40,35 @@
     <string name="ctrl_mppt">MPPT</string>
     <string name="error_missing_data">⚠️ Hiba: Kérem adja meg legalább a Napelem Wp, Akku V és Akku Ah értékeket a számításhoz!</string>
     <string name="info_missing_cons">ℹ️ Adjon meg \'Napi energiaigényt\' (Wh) a teljes ciklus-analízishez!</string>
-    <string name="res_header_solar">☀️ [ NAPELEM ÉS TÖLTÉSVEZÉRLÉS ]n</string>
-    <string name="res_header_battery">🔋 [ AKKUMULÁTOR (SOH: %1$.0f%%) ]n</string>
-    <string name="res_header_consumption">⚡ [ FOGYASZTÁS ÉS ÜZEMIDŐ ]n</string>
-    <string name="res_header_cycle">📊 [ CIKLUS MÉRLEG ]n</string>
-    <string name="res_header_diagnosis">💡 [ RENDSZER DIAGNÓZIS ]n</string>
-    <string name="res_ctrl_selected">• Választott vezérlő: %1$sn</string>
-    <string name="res_solar_power">• Névleges / Aktuális teljesítmény: %1$.0f W / %2$.0f Wn</string>
-    <string name="res_solar_psh">• Hasznos napórák (PSH): %1$.1f óra (Össz világosság: %2$.1f h)n</string>
-    <string name="res_solar_daily_gen">• Várható napi termelés: %1$.0f Whn</string>
-    <string name="res_solar_controller">• Ajánlott MPPT/PWM vezérlő: min. %1$.0f Ampernn</string>
-    <string name="res_bat_cap">• Névleges / Valós kapacitás: %1$.0f Wh / %2$.0f Whn</string>
-    <string name="res_bat_safe">• Biztonságosan kivehető (80%% DOD): %1$.0f Whnn</string>
-    <string name="res_cons_profile">• Profil: %1$sn</string>
+    <string name="res_header_solar">☀️ [ NAPELEM ÉS TÖLTÉSVEZÉRLÉS ]\n</string>
+    <string name="res_header_battery">🔋 [ AKKUMULÁTOR (SOH: %1$.0f%%) ]\n</string>
+    <string name="res_header_consumption">⚡ [ FOGYASZTÁS ÉS ÜZEMIDŐ ]\n</string>
+    <string name="res_header_cycle">📊 [ CIKLUS MÉRLEG ]\n</string>
+    <string name="res_header_diagnosis">💡 [ RENDSZER DIAGNÓZIS ]\n</string>
+    <string name="res_ctrl_selected">• Választott vezérlő: %1$s\n</string>
+    <string name="res_solar_power">• Névleges / Aktuális teljesítmény: %1$.0f W / %2$.0f W\n</string>
+    <string name="res_solar_psh">• Hasznos napórák (PSH): %1$.1f óra (Össz világosság: %2$.1f h)\n</string>
+    <string name="res_solar_daily_gen">• Várható napi termelés: %1$.0f Wh\n</string>
+    <string name="res_solar_controller">• Ajánlott MPPT/PWM vezérlő: min. %1$.0f Amper\n</string>
+    <string name="res_bat_cap">• Névleges / Valós kapacitás: %1$.0f Wh / %2$.0f Wh\n</string>
+    <string name="res_bat_safe">• Biztonságosan kivehető (80%% DOD): %1$.0f Wh\n</string>
+    <string name="res_cons_profile">• Profil: %1$s\n</string>
     <string name="profile_day">☀️ Főleg Nappali</string>
     <string name="profile_night">🌙 Főleg Éjszakai</string>
-    <string name="res_cons_daily">• Napi összes igény: %1$.0f Whn</string>
-    <string name="res_cons_night_load">• Tényleges akku terhelés éjjel: %1$.0f Whn</string>
-    <string name="res_cons_autonomy">• Teljes Rendszer Autonómia: %1$.1f napnn</string>
-    <string name="res_cycle_balance">• Napi Energia Mérleg: %1$s%2$.0f Whn</string>
-    <string name="res_cycle_morning">• Reggeli akku szint: %1$.1f%%n</string>
-    <string name="res_cycle_charge_time">• Visszatöltési idő napközben: %1$.1f óran</string>
-    <string name="res_cycle_charge_absorbed">• Töltés: ⚠️ A nappali fogyasztás elnyeli a termelést!n</string>
-    <string name="res_cycle_charge_full">• Töltés: Az akku tele maradt éjszaka.n</string>
-    <string name="res_cycle_evening">• Esti akku szint (napnyugta): %1$.1f%%nn</string>
-    <string name="diag_negative">❌ NEGATÍV MÉRLEG: A panel kevesebbet termel, mint amennyit elfogyasztasz! A rendszer le fog állni.</string>
-    <string name="diag_low_panel">⚠️ KEVÉS PANEL: A nappali fogyasztásod nagyobb, mint a panel pillanatnyi ereje. Az akku nappal is merülni fog!</string>
-    <string name="diag_small_bat">⚠️ KICSI AKKU: Az éjszakai fogyasztásod teljesen lemeríti az akkumulátort! Bővítés szükséges.</string>
-    <string name="diag_slow_charge">⚠️ LASSÚ TÖLTÉS: A panelek nem tudják napnyugtáig visszatölteni az éjszakai merítést.</string>
-    <string name="diag_perfect">✅ KIVÁLÓ RENDSZER: A beállításaid tökéletes harmóniában vannak az energiaigényeddel.</string>
+    <string name="res_cons_daily">• Napi összes igény: %1$.0f Wh\n</string>
+    <string name="res_cons_night_load">• Tényleges akku terhelés éjjel: %1$.0f Wh\n</string>
+    <string name="res_cons_autonomy">• Teljes Rendszer Autonómia: %1$.1f nap\n</string>
+    <string name="res_cycle_balance">• Napi Energia Mérleg: %1$s%2$.0f Wh\n</string>
+    <string name="res_cycle_morning">• Reggeli akku szint: %1$.1f%%\n</string>
+    <string name="res_cycle_charge_time">• Visszatöltési idő napközben: %1$.1f óra\n</string>
+    <string name="res_cycle_charge_absorbed">• Töltés: ⚠️ A nappali fogyasztás elnyeri a termelést!\n</string>
+    <string name="res_cycle_charge_full">• Töltés: Az akku tele maradt éjszaka.\n</string>
+    <string name="res_cycle_evening">• Esti akku szint (napnyugta): %1$.1f%%\n</string>
+    <string name="diag_negative">❌ NEGATÍV MÉRLEG: A panel kevesebbet termel, mint amennyit elfogyasztasz! A rendszer le fog állni.\n</string>
+    <string name="diag_low_panel">⚠️ KEVÉS PANEL: A nappali fogyasztásod nagyobb, mint a panel pillanatnyi ereje. Az akku nappal is merülni fog!\n</string>
+    <string name="diag_small_bat">⚠️ KICSI AKKU: Az éjszakai fogyasztásod teljesen lemeríti az akkumulátort! Bővítés szükséges.\n</string>
+    <string name="diag_slow_charge">⚠️ LASSÚ TÖLTÉS: A panelek nem tudják napnyugtáig visszatölteni az éjszakai merítést.\n</string>
+    <string name="diag_perfect">✅ KIVÁLÓ RENDSZER: A beállításaid tökéletes harmóniában vannak az energiaigényeddel.\n</string>
     <string name="pl_85">Pl: 85 (%)</string>
     <string name="töltésvezérlő_típusa">Töltésvezérlő típusa:</string>
     <string name="olcsó_pwm">Olcsó PWM</string>
@@ -78,4 +78,39 @@
     <string name="_12_5">12.5</string>
 
     <string name="asd">asd</string>
+    <string name="panel_config_title">1.1 Napelem konfiguráció</string>
+    <string name="panels_in_series">Sorba kötött panelek</string>
+    <string name="strings_in_parallel">Párhuzamos stringek</string>
+    <string name="single_panel_vmp">Max teljesítmény fesz.</string>
+    <string name="single_panel_imp">Max teljesítmény áram</string>
+    <string name="battery_config_title">2.1 Akkumulátor konfiguráció</string>
+    <string name="batteries_in_series">Sorba kötött akkuk</string>
+    <string name="battery_strings_in_parallel">Párhuzamos stringek</string>
+    <string name="cable_data_title">4. Kábel adatok</string>
+    <string name="cable_length_meters">Kábel hossza (m)</string>
+    <string name="cable_cross_section_mm2">Keresztmetszet (mm²)</string>
+    <string name="inverter_data_title">5. Inverter adatok</string>
+    <string name="inverter_power_w">Inverter teljesítmény (W)</string>
+    <string name="auto_calculate">Auto</string>
+    <string name="panels">Panel(ek)</string>
+    <string name="strings">String(ek)</string>
+    <string name="meters">m</string>
+    <string name="mm2">mm²</string>
+    <string name="watt">W</string>
+    <string name="vmp">Vmp</string>
+    <string name="imp">Imp</string>
+    <string name="res_array_config">• Panel konfiguráció: %1$d db sorban, %2$d string párhuzamosan (%3$d panel összesen)
+</string>
+    <string name="res_array_voc_isc">• Array Voc/Isc: %1$.1f V / %2$.1f A
+</string>
+    <string name="res_bat_bank_config">• Akku bank konfiguráció: %1$d db sorban, %2$d string párhuzamosan (%3$d akku összesen)
+</string>
+    <string name="res_bat_bank_volt_ah">• Akku bank feszültség/kapacitás: %1$.1f V / %2$.0f Ah
+</string>
+    <string name="res_inverter_size">• Ajánlott inverter méret: %1$.0f W (max %2$.0f W)
+</string>
+    <string name="res_cable_voltage_drop">• Kábel feszültségesés: %1$.1f%% (max %2$.1f%% ajánlott)
+</string>
+    <string name="res_cable_recommendation">• Ajánlott kábel keresztmetszet: %1$.1f mm²
+</string>
 </resources>

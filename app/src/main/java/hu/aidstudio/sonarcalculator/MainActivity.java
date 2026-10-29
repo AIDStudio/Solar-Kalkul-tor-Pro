@@ -61,8 +61,15 @@ public class MainActivity extends AppCompatActivity {
             d.isRainy = cbRain.isChecked();
             d.isDayLoad = cbDay.isChecked();
 
-            if (d.isValid()) {
-                tvRes.setText(CalculatorEngine.generateReport(this, d));
+            // Validáció: legalább a három alapvető mezőt kell feltölteni
+            boolean valid = d.wp > 0 && d.batV > 0 && d.batAh > 0
+                    && d.soh >= 0 && d.soh <= 100; // SOH érvényes tartománynak kell lennie
+
+            if (valid) {
+                // Új módszer: a számítást elválasztjuk a formázástól
+                SolarCalculationResult result = CalculatorEngine.calculate(d);
+                String report = ReportFormatter.format(this, result);
+                tvRes.setText(report);
                 StorageManager.save(this, d);
             } else {
                 tvRes.setText(getString(R.string.error_missing_data));

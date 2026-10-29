@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#121212">
+    android:background="@color/background_dark">
 
     <LinearLayout
         android:id="@+id/linear5"
@@ -22,7 +22,7 @@
             android:text="@string/solar_kalkulátor_pro"
             android:textSize="30sp"
             android:textStyle="bold"
-            android:textColor="#3F51B5"
+            android:textColor="@color/primary"
             android:layout_gravity="center_horizontal|center_vertical" />
 
         <LinearLayout
@@ -48,7 +48,7 @@
                     android:text="@string/napelem_adatai"
                     android:textSize="20sp"
                     android:textStyle="bold"
-                    android:textColor="#4CAF50" />
+                    android:textColor="@color/green" />
 
                 <LinearLayout
                     android:id="@+id/linear6"
@@ -65,9 +65,9 @@
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal|center_vertical"
                         android:textSize="18sp"
-                        android:textColor="#FFFFFF"
+                        android:textColor="@color/white"
                         android:hint="@string/teljesítmény_wp"
-                        android:textColorHint="#555555"
+                        android:textColorHint="@color/dark_gray"
                         android:inputType="numberDecimal" />
 
                     <TextView
@@ -78,7 +78,7 @@
                         android:text="@string/wp"
                         android:textSize="18sp"
                         android:textStyle="bold"
-                        android:textColor="#4CAF50" />
+                        android:textColor="@color/green" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -95,9 +95,9 @@
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal|center_vertical"
                         android:textSize="18sp"
-                        android:textColor="#FFFFFF"
+                        android:textColor="@color/white"
                         android:hint="@string/üresjárati_fesz_voc"
-                        android:textColorHint="#555555"
+                        android:textColorHint="@color/dark_gray"
                         android:inputType="numberDecimal" />
 
                     <TextView
@@ -108,7 +108,7 @@
                         android:text="@string/voc"
                         android:textSize="18sp"
                         android:textStyle="bold"
-                        android:textColor="#4CAF50" />
+                        android:textColor="@color/green" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -125,9 +125,9 @@
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal|center_vertical"
                         android:textSize="18sp"
-                        android:textColor="#FFFFFF"
+                        android:textColor="@color/white"
                         android:hint="@string/rövidzárlati_áram_isc"
-                        android:textColorHint="#555555"
+                        android:textColorHint="@color/dark_gray"
                         android:inputType="numberDecimal" />
 
                     <TextView
@@ -138,7 +138,7 @@
                         android:text="@string/isc"
                         android:textSize="18sp"
                         android:textStyle="bold"
-                        android:textColor="#4CAF50" />
+                        android:textColor="@color/green" />
                 </LinearLayout>
             </LinearLayout>
 
@@ -157,7 +157,7 @@
                     android:text="@string/akkumulátor_adatai"
                     android:textSize="20sp"
                     android:textStyle="bold"
-                    android:textColor="#2196F3" />
+                    android:textColor="@color/blue" />
 
                 <LinearLayout
                     android:id="@+id/linear9"
@@ -174,9 +174,9 @@
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal|center_vertical"
                         android:textSize="18sp"
-                        android:textColor="#FFFFFF"
+                        android:textColor="@color/white"
                         android:hint="@string/feszültség_v"
-                        android:textColorHint="#555555"
+                        android:textColorHint="@color/dark_gray"
                         android:inputType="numberDecimal" />
 
                     <TextView
@@ -187,7 +187,7 @@
                         android:text="@string/volt"
                         android:textSize="18sp"
                         android:textStyle="bold"
-                        android:textColor="#2196F3" />
+                        android:textColor="@color/blue" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -204,9 +204,9 @@
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal|center_vertical"
                         android:textSize="18sp"
-                        android:textColor="#FFFFFF"
+                        android:textColor="@color/white"
                         android:hint="@string/kapacitás_ah"
-                        android:textColorHint="#555555"
+                        android:textColorHint="@color/dark_gray"
                         android:inputType="numberDecimal" />
 
                     <TextView
@@ -217,7 +217,7 @@
                         android:text="@string/amper"
                         android:textSize="18sp"
                         android:textStyle="bold"
-                        android:textColor="#2196F3" />
+                        android:textColor="@color/blue" />
                 </LinearLayout>
 
                 <TextView
@@ -227,7 +227,7 @@
                     android:layout_marginTop="10dp"
                     android:text="@string/akku_állapota_élettartam"
                     android:textSize="12sp"
-                    android:textColor="#BBBBBB"
+                    android:textColor="@color/light_gray"
                     android:layout_gravity="center_horizontal|center_vertical" />
 
                 <EditText
@@ -237,9 +237,9 @@
                     android:layout_marginBottom="15dp"
                     android:gravity="center_horizontal|center_vertical"
                     android:textSize="12sp"
-                    android:textColor="#FFFFFF"
+                    android:textColor="@color/white"
                     android:hint="@string/pl_85"
-                    android:textColorHint="#555555"
+                    android:textColorHint="@color/dark_gray"
                     android:inputType="number" />
             </LinearLayout>
         </LinearLayout>
@@ -251,7 +251,7 @@
             android:text="@string/napi_energiaigény"
             android:textSize="20sp"
             android:textStyle="bold"
-            android:textColor="#FF9800" />
+            android:textColor="@color/orange" />
 
         <LinearLayout
             android:id="@+id/linear15"
@@ -283,9 +283,9 @@
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal|center_vertical"
                         android:textSize="18sp"
-                        android:textColor="#FFFFFF"
+                        android:textColor="@color/white"
                         android:hint="@string/napi_fogyasztás_összesen_wh"
-                        android:textColorHint="#555555"
+                        android:textColorHint="@color/dark_gray"
                         android:inputType="numberDecimal" />
 
                     <TextView
@@ -296,7 +296,7 @@
                         android:text="@string/watthour"
                         android:textSize="18sp"
                         android:textStyle="bold"
-                        android:textColor="#FF9800" />
+                        android:textColor="@color/orange" />
                 </LinearLayout>
 
                 <TextView
@@ -308,7 +308,7 @@
                     android:text="@string/fogyasztsciklus"
                     android:textSize="12sp"
                     android:textStyle="italic"
-                    android:textColor="#FFFFFF" />
+                    android:textColor="@color/white" />
 
                 <GridLayout
                     android:id="@+id/grid_layout7"
@@ -324,7 +324,7 @@
                         android:gravity="center_horizontal|center_vertical"
                         android:text="@string/day"
                         android:textSize="12sp"
-                        android:textColor="#FFFFFF" />
+                        android:textColor="@color/white" />
 
                     <CheckBox
                         android:id="@+id/Night"
@@ -333,7 +333,7 @@
                         android:gravity="center_horizontal|center_vertical"
                         android:text="@string/night"
                         android:textSize="12sp"
-                        android:textColor="#FFFFFF"
+                        android:textColor="@color/white"
                         android:checked="true" />
                 </GridLayout>
             </LinearLayout>
@@ -347,7 +347,7 @@
             android:gravity="center_horizontal|center_vertical"
             android:text="@string/töltésvezérlő_típusa"
             android:textSize="12sp"
-            android:textColor="#FFFFFF" />
+            android:textColor="@color/white" />
 
         <LinearLayout
             android:id="@+id/linear17"
@@ -362,7 +362,7 @@
                 android:gravity="center_vertical"
                 android:text="@string/olcsó_pwm"
                 android:textSize="12sp"
-                android:textColor="#FFFFFF"
+                android:textColor="@color/white"
                 android:layout_weight="1" />
 
             <CheckBox
@@ -372,7 +372,7 @@
                 android:gravity="center_vertical"
                 android:text="@string/jó_pwm"
                 android:textSize="12sp"
-                android:textColor="#FFFFFF"
+                android:textColor="@color/white"
                 android:layout_weight="1" />
 
             <CheckBox
@@ -382,7 +382,7 @@
                 android:gravity="center_vertical"
                 android:text="@string/mppt"
                 android:textSize="12sp"
-                android:textColor="#FFFFFF"
+                android:textColor="@color/white"
                 android:layout_weight="1" />
         </LinearLayout>
 
@@ -393,7 +393,7 @@
             android:text="@string/környezeti_tényezők"
             android:textSize="12sp"
             android:textStyle="italic"
-            android:textColor="#FFFFFF"
+            android:textColor="@color/white"
             android:layout_gravity="center_horizontal|center_vertical" />
 
         <LinearLayout
@@ -411,7 +411,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/nappali_órák_manuális"
                 android:textSize="12sp"
-                android:textColor="#BBBBBB" />
+                android:textColor="@color/light_gray" />
 
             <EditText
                 android:id="@+id/etManualHours"
@@ -419,9 +419,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:textSize="14sp"
-                android:textColor="#FFFFFF"
+                android:textColor="@color/white"
                 android:hint="@string/_12_5"
-                android:textColorHint="#555555"
+                android:textColorHint="@color/dark_gray"
                 android:inputType="numberDecimal" />
         </LinearLayout>
 
@@ -439,7 +439,7 @@
                 android:gravity="center_horizontal|center_vertical"
                 android:text="@string/tél"
                 android:textSize="12sp"
-                android:textColor="#FFFFFF" />
+                android:textColor="@color/white" />
 
             <CheckBox
                 android:id="@+id/cbSpring"
@@ -448,7 +448,7 @@
                 android:gravity="center_horizontal|center_vertical"
                 android:text="@string/tavasz"
                 android:textSize="12sp"
-                android:textColor="#FFFFFF"
+                android:textColor="@color/white"
                 android:checked="true" />
 
             <CheckBox
@@ -458,7 +458,7 @@
                 android:gravity="center_horizontal|center_vertical"
                 android:text="@string/nyár"
                 android:textSize="12sp"
-                android:textColor="#FFFFFF" />
+                android:textColor="@color/white" />
 
             <CheckBox
                 android:id="@+id/cbAutumn"
@@ -467,7 +467,7 @@
                 android:gravity="center_horizontal|center_vertical"
                 android:text="@string/ősz"
                 android:textSize="12sp"
-                android:textColor="#FFFFFF" />
+                android:textColor="@color/white" />
         </GridLayout>
 
         <GridLayout
@@ -485,7 +485,7 @@
                 android:gravity="center_horizontal|center_vertical"
                 android:text="@string/napos"
                 android:textSize="12sp"
-                android:textColor="#FFFFFF"
+                android:textColor="@color/white"
                 android:checked="true" />
 
             <CheckBox
@@ -495,7 +495,7 @@
                 android:gravity="center_horizontal|center_vertical"
                 android:text="@string/borult"
                 android:textSize="12sp"
-                android:textColor="#FFFFFF" />
+                android:textColor="@color/white" />
 
             <CheckBox
                 android:id="@+id/cbVeryCloudy"
@@ -504,7 +504,7 @@
                 android:gravity="center_horizontal|center_vertical"
                 android:text="@string/sötét"
                 android:textSize="12sp"
-                android:textColor="#FFFFFF" />
+                android:textColor="@color/white" />
 
             <CheckBox
                 android:id="@+id/cbRainy"
@@ -513,7 +513,7 @@
                 android:gravity="center_horizontal|center_vertical"
                 android:text="@string/eső"
                 android:textSize="12sp"
-                android:textColor="#FFFFFF" />
+                android:textColor="@color/white" />
         </GridLayout>
 
         <Button
@@ -523,8 +523,8 @@
             android:layout_marginTop="15dp"
             android:text="@string/számítás"
             android:textSize="12sp"
-            android:textColor="#FFFFFF"
-            android:backgroundTint="#4CAF50" />
+            android:textColor="@color/white"
+            android:backgroundTint="@color/green" />
 
         <TextView
             android:id="@+id/tvResult"
@@ -532,10 +532,10 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:padding="15dp"
-            android:background="#1E1E1E"
+            android:background="@color/surface_dark"
             android:gravity="center_horizontal"
             android:text="@string/töltse_ki_a_szekciókat"
             android:textSize="14sp"
-            android:textColor="#FFFFFF" />
+            android:textColor="@color/white" />
     </LinearLayout>
 </ScrollView>
