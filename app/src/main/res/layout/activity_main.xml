@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121212">
+
+    <LinearLayout
+        android:id="@+id/linear5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textview7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="@string/solar_kalkulátor_pro"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#3F51B5"
+            android:layout_gravity="center_horizontal|center_vertical" />
+
+        <LinearLayout
+            android:id="@+id/linear12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:id="@+id/linear13"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/textview8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/napelem_adatai"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#4CAF50" />
+
+                <LinearLayout
+                    android:id="@+id/linear6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="15dp"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/etWp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:textSize="18sp"
+                        android:textColor="#FFFFFF"
+                        android:hint="@string/teljesítmény_wp"
+                        android:textColorHint="#555555"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:id="@+id/textview13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:text="@string/wp"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="#4CAF50" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linear7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/etVoc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:textSize="18sp"
+                        android:textColor="#FFFFFF"
+                        android:hint="@string/üresjárati_fesz_voc"
+                        android:textColorHint="#555555"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:id="@+id/textview14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:text="@string/voc"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="#4CAF50" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linear8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/etIsc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:textSize="18sp"
+                        android:textColor="#FFFFFF"
+                        android:hint="@string/rövidzárlati_áram_isc"
+                        android:textColorHint="#555555"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:id="@+id/textview15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:text="@string/isc"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="#4CAF50" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear14"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textview9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="@string/akkumulátor_adatai"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#2196F3" />
+
+                <LinearLayout
+                    android:id="@+id/linear9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="15dp"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/etBatV"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:textSize="18sp"
+                        android:textColor="#FFFFFF"
+                        android:hint="@string/feszültség_v"
+                        android:textColorHint="#555555"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:id="@+id/textview16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:text="@string/volt"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="#2196F3" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linear10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/etBatAh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:textSize="18sp"
+                        android:textColor="#FFFFFF"
+                        android:hint="@string/kapacitás_ah"
+                        android:textColorHint="#555555"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:id="@+id/textview17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:text="@string/amper"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="#2196F3" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textview10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/akku_állapota_élettartam"
+                    android:textSize="12sp"
+                    android:textColor="#BBBBBB"
+                    android:layout_gravity="center_horizontal|center_vertical" />
+
+                <EditText
+                    android:id="@+id/etBatSoh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:textSize="12sp"
+                    android:textColor="#FFFFFF"
+                    android:hint="@string/pl_85"
+                    android:textColorHint="#555555"
+                    android:inputType="number" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textview11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/napi_energiaigény"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#FF9800" />
+
+        <LinearLayout
+            android:id="@+id/linear15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/linear16"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="8dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/linear11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:padding="8dp"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/etConsWh"
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:textSize="18sp"
+                        android:textColor="#FFFFFF"
+                        android:hint="@string/napi_fogyasztás_összesen_wh"
+                        android:textColorHint="#555555"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:id="@+id/textview18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:text="@string/watthour"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="#FF9800" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textview19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:padding="8dp"
+                    android:text="@string/fogyasztsciklus"
+                    android:textSize="12sp"
+                    android:textStyle="italic"
+                    android:textColor="#FFFFFF" />
+
+                <GridLayout
+                    android:id="@+id/grid_layout7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:columnCount="2">
+
+                    <CheckBox
+                        android:id="@+id/Day"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:text="@string/day"
+                        android:textSize="12sp"
+                        android:textColor="#FFFFFF" />
+
+                    <CheckBox
+                        android:id="@+id/Night"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:text="@string/night"
+                        android:textSize="12sp"
+                        android:textColor="#FFFFFF"
+                        android:checked="true" />
+                </GridLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textview12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/töltésvezérlő_típusa"
+            android:textSize="12sp"
+            android:textColor="#FFFFFF" />
+
+        <LinearLayout
+            android:id="@+id/linear17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/cbCheapPWM"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="@string/olcsó_pwm"
+                android:textSize="12sp"
+                android:textColor="#FFFFFF"
+                android:layout_weight="1" />
+
+            <CheckBox
+                android:id="@+id/cbQualityPWM"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="@string/jó_pwm"
+                android:textSize="12sp"
+                android:textColor="#FFFFFF"
+                android:layout_weight="1" />
+
+            <CheckBox
+                android:id="@+id/cbMPPT"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="@string/mppt"
+                android:textSize="12sp"
+                android:textColor="#FFFFFF"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textview20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/környezeti_tényezők"
+            android:textSize="12sp"
+            android:textStyle="italic"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="center_horizontal|center_vertical" />
+
+        <LinearLayout
+            android:id="@+id/linear2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textview3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nappali_órák_manuális"
+                android:textSize="12sp"
+                android:textColor="#BBBBBB" />
+
+            <EditText
+                android:id="@+id/etManualHours"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="14sp"
+                android:textColor="#FFFFFF"
+                android:hint="@string/_12_5"
+                android:textColorHint="#555555"
+                android:inputType="numberDecimal" />
+        </LinearLayout>
+
+        <GridLayout
+            android:id="@+id/grid_layout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:columnCount="2">
+
+            <CheckBox
+                android:id="@+id/cbWinter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/tél"
+                android:textSize="12sp"
+                android:textColor="#FFFFFF" />
+
+            <CheckBox
+                android:id="@+id/cbSpring"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/tavasz"
+                android:textSize="12sp"
+                android:textColor="#FFFFFF"
+                android:checked="true" />
+
+            <CheckBox
+                android:id="@+id/cbSummer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/nyár"
+                android:textSize="12sp"
+                android:textColor="#FFFFFF" />
+
+            <CheckBox
+                android:id="@+id/cbAutumn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/ősz"
+                android:textSize="12sp"
+                android:textColor="#FFFFFF" />
+        </GridLayout>
+
+        <GridLayout
+            android:id="@+id/grid_layout8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:columnCount="2">
+
+            <CheckBox
+                android:id="@+id/cbSunny"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/napos"
+                android:textSize="12sp"
+                android:textColor="#FFFFFF"
+                android:checked="true" />
+
+            <CheckBox
+                android:id="@+id/cbCloudy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/borult"
+                android:textSize="12sp"
+                android:textColor="#FFFFFF" />
+
+            <CheckBox
+                android:id="@+id/cbVeryCloudy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/sötét"
+                android:textSize="12sp"
+                android:textColor="#FFFFFF" />
+
+            <CheckBox
+                android:id="@+id/cbRainy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/eső"
+                android:textSize="12sp"
+                android:textColor="#FFFFFF" />
+        </GridLayout>
+
+        <Button
+            android:id="@+id/btnCalculate"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/számítás"
+            android:textSize="12sp"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#4CAF50" />
+
+        <TextView
+            android:id="@+id/tvResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:padding="15dp"
+            android:background="#1E1E1E"
+            android:gravity="center_horizontal"
+            android:text="@string/töltse_ki_a_szekciókat"
+            android:textSize="14sp"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+</ScrollView>
